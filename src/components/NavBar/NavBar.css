@@ -1,0 +1,20 @@
+.nav-link {
+  text-transform: uppercase;
+  font-weight: bolder !important;
+}
+
+.nav-item {
+  margin: 0px 20px;
+}
+
+.my-photo {
+  height: 50px;
+  border-radius: 50%;
+}
+
+.brand-name {
+  text-transform: uppercase;
+  font-weight: bold;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
