@@ -30,3 +30,9 @@
   border: 1px solid violet;
   margin: 40px;
 }
+
+.know-me-container p {
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 100%;
+}

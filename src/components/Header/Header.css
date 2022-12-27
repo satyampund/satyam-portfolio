@@ -8,6 +8,14 @@
   margin-top: 100px;
 }
 
+.heading-description {
+  /* text-transform: uppercase; */
+  letter-spacing: 1.3px;
+  word-spacing: 1.5;
+  line-height: 1.5;
+  font-size: 150%;
+  font-family: 'Poppins', sans-serif !important;
+}
 .buttonClass {
   font-size: 15px;
   /* font-family: Arial; */

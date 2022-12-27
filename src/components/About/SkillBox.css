@@ -1,0 +1,13 @@
+.skill-box {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.skill-img {
+  width: 50%;
+}
+
+.skill-name {
+  margin-top: 5px;
+  font-size: 14px;
+}

@@ -8,11 +8,10 @@ const Header = () => {
         <div class="row">
           <div class="col-md-6">
             <h1 className="heading">Hey, I'm Satyam Pund</h1>
-            <h5>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-              has been the industry's standard dummy text ever since the 1500s, when an unknown
-              printer took a galley of type and scrambled it to make a type specimen book
-            </h5>
+            <h4 className="heading-description mt-4 mb-3">
+              A MERN Stack Developer Passionate About Coding. Always ready to try Hands-on New and
+              Emerging Technologies.
+            </h4>
             <button className="buttonClass me-5 mt-4">Resume</button>
             <button className="buttonClass mt-4">Hire Me</button>
           </div>

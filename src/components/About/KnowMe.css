@@ -1,4 +1,4 @@
-.skill-box-header {
+.knowMe-box-header {
   border: 1px solid black;
   padding: 7px;
   text-transform: uppercase;
@@ -11,4 +11,5 @@
   margin-top: 20px;
   margin-bottom: 15px;
   letter-spacing: 1.5px !important;
+  text-align: center;
 }
