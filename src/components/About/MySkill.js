@@ -25,63 +25,102 @@ const MySkill = () => {
       <h6 className="skill-box-header">Web development</h6>
       <div class="container text-center">
         <div class="row">
-          <div class="col">
-            <SkillBox skillImg={HMTLImg} skillName="HTML" alt="HTMLIcon" />
+          <div className="col-md-6">
+            <div className="row">
+              <div class="col-6">
+                <SkillBox skillImg={HMTLImg} skillName="HTML" alt="HTMLIcon" />
+              </div>
+              <div class="col-6">
+                <SkillBox skillImg={CSSImg} skillName="CSS" alt="CSSIcon" />
+              </div>
+            </div>
           </div>
-          <div class="col">
-            <SkillBox skillImg={CSSImg} skillName="CSS" alt="CSSIcon" />
-          </div>
-          <div class="col">
-            <SkillBox skillImg={JavaScriptImg} skillName="JavaScript" alt="JSIcon" />
-          </div>
-          <div class="col">
-            <SkillBox skillImg={BootStrapImg} skillName="BootStrap" alt="BootstrapIcon" />
+
+          <div className="col-md-6">
+            <div className="row">
+              <div class="col-6">
+                <SkillBox skillImg={JavaScriptImg} skillName="JavaScript" alt="JSIcon" />
+              </div>
+              <div class="col-6">
+                <SkillBox skillImg={BootStrapImg} skillName="BootStrap" alt="BootstrapIcon" />
+              </div>
+            </div>
           </div>
         </div>
 
         <div class="row">
-          <div class="col">
-            <SkillBox skillImg={ReactImg} skillName="React JS" alt="ReactIcon" />
+          <div className="col-md-6">
+            <div className="row">
+              <div class="col-6">
+                <SkillBox skillImg={ReactImg} skillName="React JS" alt="ReactIcon" />
+              </div>
+              <div class="col-6">
+                <SkillBox skillImg={NodeJsImg} skillName="Node JS" alt="NodeIcon" />
+              </div>
+            </div>
           </div>
-          <div class="col">
-            <SkillBox skillImg={NodeJsImg} skillName="Node JS" alt="NodeIcon" />
-          </div>
-          <div class="col">
-            <SkillBox skillImg={ExpressImg} skillName="Express JS" alt="ExpressIcon" />
-          </div>
-          <div class="col">
-            <SkillBox skillImg={MongodbImg} skillName="MongoDB" alt="MongoDBIcon" />
+
+          <div className="col-md-6">
+            <div className="row">
+              <div class="col-6">
+                <SkillBox skillImg={ExpressImg} skillName="Express JS" alt="ExpressIcon" />
+              </div>
+              <div class="col-6">
+                <SkillBox skillImg={MongodbImg} skillName="MongoDB" alt="MongoDBIcon" />
+              </div>
+            </div>
           </div>
         </div>
 
         <h6 className="skill-box-header">Languages</h6>
         <div class="row">
-          <div class="col">
-            <SkillBox skillImg={CImg} skillName="C" alt="CIcon" />
+          <div className="col-md-6">
+            <div className="row">
+              <div class="col-6">
+                <SkillBox skillImg={CImg} skillName="C" alt="CIcon" />
+              </div>
+              <div class="col-6">
+                <SkillBox skillImg={CppImg} skillName="C++" alt="CPPIcon" />
+              </div>
+            </div>
           </div>
-          <div class="col">
-            <SkillBox skillImg={CppImg} skillName="C++" alt="CPPIcon" />
-          </div>
-          <div class="col">
-            <SkillBox skillImg={JavaImg} skillName="Java" alt="JavaIcon" />
-          </div>
-          <div class="col">
-            <SkillBox skillImg={PythonImg} skillName="Python" alt="PythonIcon" />
+
+          <div className="col-md-6">
+            <div className="row">
+              <div class="col-6">
+                <SkillBox skillImg={JavaImg} skillName="Java" alt="JavaIcon" />
+              </div>
+              <div class="col-6">
+                <SkillBox skillImg={PythonImg} skillName="Python" alt="PythonIcon" />
+              </div>
+            </div>
           </div>
         </div>
 
         <h6 className="skill-box-header">Tools</h6>
+
         <div class="row">
-          <div class="col">
-            <SkillBox skillImg={GitImg} skillName="Git" alt="Gitcon" />
+          <div className="col-md-6">
+            <div className="row">
+              <div class="col-6">
+                <SkillBox skillImg={GitImg} skillName="Git" alt="Gitcon" />
+              </div>
+              <div class="col-6">
+                <SkillBox skillImg={GitHubImg} skillName="Github" alt="GitHubIcon" />
+              </div>
+            </div>
           </div>
-          <div class="col">
-            <SkillBox skillImg={GitHubImg} skillName="Github" alt="GitHubIcon" />
+
+          <div className="col-md-6">
+            <div className="row">
+              <div class="col-6">
+                <SkillBox skillImg={PostmanImg} skillName="Postman" alt="Postman" />
+              </div>
+              <div class="col-6">
+                {/* <SkillBox skillImg={PythonImg} skillName="Python" alt="PythonIcon" /> */}
+              </div>
+            </div>
           </div>
-          <div class="col">
-            <SkillBox skillImg={PostmanImg} skillName="Postman" alt="Postman" />
-          </div>
-          <div class="col"></div>
         </div>
       </div>
     </>

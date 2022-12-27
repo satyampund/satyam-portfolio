@@ -13,3 +13,38 @@
   letter-spacing: 1.5px !important;
   text-align: center;
 }
+
+.abc {
+  font-family: 'Poppins', sans-serif !important;
+  padding: 0px 10px;
+}
+
+.abc ul li {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.ContactbuttonClass {
+  font-size: 15px;
+  width: 130px;
+  height: 40px;
+  border-width: 1px;
+  color: #fff;
+  border-color: #337bc4;
+  font-weight: bold;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 3px 4px 0px 0px #1564ad;
+  text-shadow: 0px 1px 0px #528ecc;
+  background: linear-gradient(#79bbff, #378de5);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+}
+
+.ContactbuttonClass:hover {
+  background: linear-gradient(#378de5, #79bbff);
+}

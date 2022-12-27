@@ -26,13 +26,7 @@
 }
 
 .know-me-container {
-  padding: 30px;
+  padding: 25px;
   border: 1px solid violet;
-  margin: 40px;
-}
-
-.know-me-container p {
-  letter-spacing: 1px;
-  font-weight: 500;
-  font-size: 100%;
+  margin: 20px;
 }

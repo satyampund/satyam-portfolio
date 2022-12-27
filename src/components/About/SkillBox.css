@@ -8,6 +8,7 @@
 }
 
 .skill-name {
-  margin-top: 5px;
+  font-family: 'Poppins', sans-serif !important;
+  margin-top: 7px;
   font-size: 14px;
 }
