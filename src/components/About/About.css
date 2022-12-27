@@ -24,3 +24,9 @@
   margin-right: auto;
   margin-left: auto;
 }
+
+.know-me-container {
+  padding: 30px;
+  border: 1px solid violet;
+  margin: 40px;
+}
