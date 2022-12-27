@@ -5,10 +5,10 @@ import SatyamPhoto from './../../assests/satyam-photo.png';
 const NavBar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary bg-light">
-        <a class="navbar-brand ms-3" href="#d">
+      <nav className="navbar sticky-top navbar-expand-lg bg-body-tertiary bg-light">
+        <a class="navbar-brand ms-4" href="#d">
           <img src={SatyamPhoto} className="my-photo" alt="satyam" />
-          <span class="ms-2 brand-name">Satyam Pund</span>
+          <span className="ms-3 brand-name">Satyam Pund</span>
         </a>
         <button
           className="navbar-toggler"

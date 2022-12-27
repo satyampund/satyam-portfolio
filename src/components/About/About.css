@@ -1,0 +1,26 @@
+.about-heading {
+  font-weight: bold;
+}
+
+.about-heading:after {
+  display: block;
+  height: 4px;
+  background-color: #407bff;
+  content: ' ';
+  width: 70px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.about-des {
+  text-align: center;
+}
+
+.container-div {
+  background-color: #ccc;
+  max-width: 800px;
+  text-align: center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
