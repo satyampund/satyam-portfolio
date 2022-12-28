@@ -1,5 +1,6 @@
 import React from 'react';
 import './Projects.css';
+import ProjectCard from './ProjectCard';
 
 const Projects = () => {
   return (
@@ -12,6 +13,7 @@ const Projects = () => {
             containing its own case study
           </h4>
         </div>
+        <ProjectCard />
       </div>
     </>
   );

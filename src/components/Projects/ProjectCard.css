@@ -1,0 +1,29 @@
+.card {
+  width: 100%;
+  border: none !important;
+  font-family: 'Poppins', sans-serif !important;
+  color: #000;
+}
+
+.card-img {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 10px 10px 0 0 !important;
+  box-shadow: 0 14px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.card-body {
+  border: 1px solid black;
+  border-radius: 0 0 10px 10px !important;
+  background-color: #60d394;
+  letter-spacing: 0.3px;
+  box-shadow: 0 14px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.temp {
+  padding: 30px 50px;
+}
+
+.card-title {
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
