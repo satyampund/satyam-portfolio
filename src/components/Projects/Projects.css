@@ -1,0 +1,33 @@
+.project-section {
+  padding: 20px 20px;
+}
+
+.project-section-heading {
+  font-weight: bold;
+}
+
+.project-section-heading:after {
+  display: block;
+  height: 4px;
+  background-color: #407bff;
+  content: ' ';
+  width: 70px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.description-container {
+  max-width: 800px;
+  text-align: center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5px 20px;
+}
+
+.description {
+  font-family: 'Poppins', sans-serif !important;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 20px;
+}

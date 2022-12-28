@@ -21,7 +21,6 @@ import SkillBox from './SkillBox';
 const MySkill = () => {
   return (
     <>
-      <h3>My Skills</h3>
       <h6 className="skill-box-header">Web development</h6>
       <div class="container text-center">
         <div class="row">
