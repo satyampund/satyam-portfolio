@@ -1,6 +1,11 @@
 .nav-link {
   text-transform: uppercase;
   font-weight: bolder !important;
+  color: #555 !important;
+}
+
+.nav-link:hover {
+  color: #00a6fb !important;
 }
 
 .nav-item {
@@ -18,4 +23,8 @@
   word-spacing: 2px;
   letter-spacing: 1px;
   color: #555;
+}
+
+.brand-name:hover {
+  color: #00a6fb;
 }

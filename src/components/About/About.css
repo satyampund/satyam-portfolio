@@ -5,7 +5,7 @@
 .about-heading:after {
   display: block;
   height: 4px;
-  background-color: #407bff;
+  background-color: #00a6fb;
   content: ' ';
   width: 70px;
   margin: 0 auto;
@@ -30,7 +30,7 @@
 
 .know-me-container {
   padding: 25px;
-  border: 1px solid black;
+  border: 1px solid #555;
   margin: 40px 20px;
   background-color: white;
   border-radius: 10px;
@@ -49,7 +49,7 @@
 .about-boxes-heading:after {
   display: block;
   height: 3px;
-  background-color: #407bff;
+  background-color: #00a6fb;
   content: ' ';
   width: 40px;
   margin: 10px auto;

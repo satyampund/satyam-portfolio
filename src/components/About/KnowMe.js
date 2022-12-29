@@ -26,15 +26,16 @@ const KnowMe = () => {
           technologies.
         </p>
         <p>
-          I have a strong foundation in MERN Stack and I am skilled in creating interactive and
-          visually appealing websites.
+          I have a strong foundation in <span>MERN Stack</span> and I am skilled in creating
+          interactive and visually appealing websites.
         </p>
         <p>
-          I'm open to Job opportunities where I can contribute, learn and grow. If you have a good
-          opportunity that matches my skills and experience then don't hesitate to contact me.
+          I'm open to <span>Job</span> opportunities where I can contribute, learn and grow. If you
+          have a good opportunity that matches my skills and experience then don't hesitate to
+          <span> contact</span> me.
         </p>
       </div>
-      <button className="ContactbuttonClass">Contact</button>
+      <button className="css-button-rounded--sky">Contact</button>
     </>
   );
 };

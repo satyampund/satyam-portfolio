@@ -22,27 +22,29 @@
   letter-spacing: 1px;
 }
 
-.ContactbuttonClass {
-  font-size: 15px;
-  width: 130px;
+span {
+  color: #00a6fb;
+}
+
+.css-button-rounded--sky {
+  min-width: 130px;
   height: 40px;
-  border-width: 1px;
   color: #fff;
-  border-color: #337bc4;
+  padding: 5px 10px;
   font-weight: bold;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  box-shadow: 3px 4px 0px 0px #1564ad;
-  text-shadow: 0px 1px 0px #528ecc;
-  background: linear-gradient(#79bbff, #378de5);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid #00a6fb;
+  background: #00a6fb;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 5px;
 }
-
-.ContactbuttonClass:hover {
-  background: linear-gradient(#378de5, #79bbff);
+.css-button-rounded--sky:hover {
+  background: #fff;
+  color: #00a6fb;
 }

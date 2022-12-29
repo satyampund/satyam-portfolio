@@ -37,12 +37,12 @@ const ProjectCardLogic = () => {
           <div className={`card-body ${ele.color}`}>
             <h5 className="card-title">{ele.title}</h5>
             <p className="card-text">{ele.description}</p>
-            <a href="#ss" className="btn btn-dark me-3 project-card-btn">
-              Code
-            </a>
-            <a href="#ss" className="btn btn-dark ms-3 project-card-btn">
+            <button className="css-button-shadow-border-sliding--black me-3">Code</button>
+            <button className="css-button-shadow-border-sliding--black ms-3 ">Demo</button>
+
+            {/* <a href="#ss" className="btn btn-dark ms-3 project-card-btn">
               Demo
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
