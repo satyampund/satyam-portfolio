@@ -33,7 +33,10 @@ const ProjectCardLogic = () => {
     return (
       <div className="col-md-4">
         <div className="card">
-          <img className="card-img" src={ele.image} alt="Roadtojs"></img>
+          <div className="image-container">
+            <img className="card-img" src={ele.image} alt="Roadtojs"></img>
+            <img className="card-back-img" src={WeatherApp} alt="Roadtojs"></img>
+          </div>
           <div className={`card-body ${ele.color}`}>
             <h5 className="card-title">{ele.title}</h5>
             <p className="card-text">{ele.description}</p>
