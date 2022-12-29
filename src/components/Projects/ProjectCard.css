@@ -16,7 +16,6 @@
 .card-body {
   border: 1px solid black;
   border-radius: 0 0 10px 10px !important;
-  background-color: #79bbff;
   letter-spacing: 0.3px;
   box-shadow: 0 14px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
@@ -34,4 +33,37 @@
 .card-title {
   font-weight: bolder;
   letter-spacing: 1px;
+}
+
+.card-color-1 {
+  background-color: #7eb9df;
+}
+
+.card-color-2 {
+  background-color: #7ed2a4;
+}
+
+.card-color-3 {
+  background-color: #f2a999;
+}
+
+.card-color-4 {
+  background-color: #f3d591;
+}
+
+.card-color-5 {
+  background-color: #bbe898;
+}
+
+.project-card-btn {
+  font-size: 14px !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+
+@media screen and (max-width: 340px) {
+  .project-card-btn {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
 }

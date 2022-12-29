@@ -12,8 +12,8 @@ const Header = () => {
               A MERN Stack Developer Passionate About Coding. Always ready to try Hands-on New and
               Emerging Technologies.
             </h4>
-            <button className="buttonClass me-5 mt-4">Resume</button>
-            <button className="buttonClass mt-4">Hire Me</button>
+            <button className="css-button-arrow--sky me-5 mt-4">Resume</button>
+            <button className="css-button-sliding-to-left--sky mt-4">Hire Me</button>
           </div>
           <div class="col-md-6">
             <img src={StudyBoy} className="header-img" alt="study"></img>

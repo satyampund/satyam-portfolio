@@ -8,6 +8,7 @@ const ProjectCardLogic = () => {
     {
       image: RoadToJS,
       title: 'Road To JS',
+      color: 'card-color-1',
       description:
         'Road To JS is a platform that contains the collection of JavaScript begineers friendly projects in one place',
     },
@@ -15,40 +16,32 @@ const ProjectCardLogic = () => {
     {
       image: DryFruitsDarbar,
       title: 'Dry Fruits Darbar',
-      description: 'Road To JS is a platform that contains the collection of JavaScript ',
+      color: 'card-color-2',
+      description:
+        'Dry Fruits Darbar is an E-commerce platform where you can buy premium quality dry fruits',
     },
     {
       image: WeatherApp,
       title: 'Weather App',
-      description: 'Road To JS is a platform that contains the collection of JavaScript ',
-    },
-    {
-      image: WeatherApp,
-      title: 'Weather App',
-      description: 'Road To JS is a platform that contains the collection of JavaScript ',
-    },
-    {
-      image: WeatherApp,
-      title: 'Weather App',
-      description: 'Road To JS is a platform that contains the collection of JavaScript ',
-    },
-    {
-      image: WeatherApp,
-      title: 'Weather App',
-      description: 'Road To JS is a platform that contains the collection of JavaScript ',
+      color: 'card-color-3',
+      description:
+        'This is simple React Project which gives you weather updates by just entering city name',
     },
   ];
 
   const projectMap = projectData.map((ele) => {
     return (
       <div className="col-md-4">
-        <div class="card">
+        <div className="card">
           <img className="card-img" src={ele.image} alt="Roadtojs"></img>
-          <div class="card-body">
-            <h5 class="card-title">{ele.title}</h5>
-            <p class="card-text">{ele.description}</p>
-            <a href="#ss" class="btn btn-dark">
-              Case Study
+          <div className={`card-body ${ele.color}`}>
+            <h5 className="card-title">{ele.title}</h5>
+            <p className="card-text">{ele.description}</p>
+            <a href="#ss" className="btn btn-dark me-3 project-card-btn">
+              Code
+            </a>
+            <a href="#ss" className="btn btn-dark ms-3 project-card-btn">
+              Demo
             </a>
           </div>
         </div>

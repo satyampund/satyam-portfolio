@@ -16,24 +16,77 @@
   font-size: 150%;
   font-family: 'Poppins', sans-serif !important;
 }
-.buttonClass {
-  font-size: 15px;
-  /* font-family: Arial; */
-  width: 130px;
-  height: 50px;
-  border-width: 1px;
+
+/*new button*/
+.css-button-arrow--sky {
+  min-width: 130px;
+  height: 40px;
   color: #fff;
-  border-color: #337bc4;
+  padding: 5px 10px;
   font-weight: bold;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  box-shadow: 3px 4px 0px 0px #1564ad;
-  text-shadow: 0px 1px 0px #528ecc;
-  background: linear-gradient(#79bbff, #378de5);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  overflow: hidden;
+  border-radius: 5px;
+  border: none;
+  background-color: #00a6fb;
+}
+.css-button-arrow--sky:hover {
+  border-radius: 5px;
+  padding-right: 24px;
+  padding-left: 8px;
+}
+.css-button-arrow--sky:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+.css-button-arrow--sky:after {
+  content: '\00BB';
+  position: absolute;
+  opacity: 0;
+  font-size: 20px;
+  line-height: 40px;
+  top: 0;
+  right: -20px;
+  transition: 0.4s;
 }
 
-.buttonClass:hover {
-  background: linear-gradient(#378de5, #79bbff);
+/*Another Button*/
+.css-button-sliding-to-left--sky {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #00a6fb;
+  color: #00a6fb;
+}
+.css-button-sliding-to-left--sky:hover {
+  color: #fff;
+}
+.css-button-sliding-to-left--sky:hover:after {
+  width: 100%;
+}
+.css-button-sliding-to-left--sky:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #00a6fb;
 }
