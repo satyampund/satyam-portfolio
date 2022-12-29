@@ -2,6 +2,7 @@ import React from 'react';
 import RoadToJS from './../../assests/project-1.png';
 import DryFruitsDarbar from './../../assests/project-2.png';
 import WeatherApp from './../../assests/project-3.png';
+import StackRTJ from './../../assests/project-stack-1.png';
 
 const ProjectCardLogic = () => {
   const projectData = [
@@ -35,7 +36,7 @@ const ProjectCardLogic = () => {
         <div className="card">
           <div className="image-container">
             <img className="card-img" src={ele.image} alt="Roadtojs"></img>
-            <img className="card-back-img" src={WeatherApp} alt="Roadtojs"></img>
+            <img className="card-back-img" src={StackRTJ} alt="Roadtojs"></img>
           </div>
           <div className={`card-body ${ele.color}`}>
             <h5 className="card-title">{ele.title}</h5>
