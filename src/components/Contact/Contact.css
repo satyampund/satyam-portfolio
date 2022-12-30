@@ -1,0 +1,48 @@
+.contact-me {
+  background-color: #f8f9fa;
+  padding: 50px;
+}
+
+.form-container {
+  font-family: 'Poppins', sans-serif !important;
+  padding: 40px !important;
+  background-color: white;
+  max-width: 700px !important;
+  border-radius: 10px;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0 14px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.contact__form-label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.element-holder {
+  margin-bottom: 30px;
+}
+
+.contact__form-input {
+  width: 100%;
+  height: 50px;
+  background-color: #f0f0f0;
+  border: none;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.contact__form-input:focus,
+.text-aera:focus {
+  outline: none;
+}
+
+.text-aera {
+  width: 100%;
+  min-height: 200px;
+  background-color: #f0f0f0;
+  border: none;
+  padding: 20px;
+  border-radius: 7px;
+}
