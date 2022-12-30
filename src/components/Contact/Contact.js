@@ -5,6 +5,13 @@ const Contact = () => {
   return (
     <>
       <div className="container-fluid contact-me ">
+        <h2 className="contact-heading">Contact</h2>
+        <div className="contact-container-div">
+          <h4 className="contact-des">
+            Feel free to Contact me by submitting the form below and I will get back to you as soon
+            as possible
+          </h4>
+        </div>
         <div className=" container form-container">
           <form className="form-elements">
             <div className="element-holder">
@@ -46,7 +53,7 @@ const Contact = () => {
                 name="message"
                 id="message"></textarea>
             </div>
-            <button type="submit" class="btn btn--theme contact__btn">
+            <button type="submit" class="css-button-rounded--sky">
               Submit
             </button>
           </form>
