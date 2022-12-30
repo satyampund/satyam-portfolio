@@ -1,5 +1,7 @@
 import React from 'react';
 import './Contact.css';
+import ContactForm from './ContactForm';
+import ContactImg from './../../assests/final.png';
 
 const Contact = () => {
   return (
@@ -12,51 +14,18 @@ const Contact = () => {
             as possible
           </h4>
         </div>
-        <div className=" container form-container">
-          <form className="form-elements">
-            <div className="element-holder">
-              <label class="contact__form-label" for="name">
-                Name
-              </label>
-              <input
-                required
-                placeholder="Enter Your Name"
-                type="text"
-                class="contact__form-input"
-                name="name"
-                id="name"
-              />
+
+        <div class="container-fluid text-center">
+          <div class="row">
+            <div class="col-md-6 order-2 order-md-1">
+              <div className="form-container">
+                <ContactForm />
+              </div>
             </div>
-            <div className="element-holder">
-              <label class="contact__form-label" for="email">
-                Email
-              </label>
-              <input
-                required
-                placeholder="Enter Your Email"
-                type="email"
-                class="contact__form-input"
-                name="email"
-                id="email"
-              />
+            <div class="col-md-6 order-1 order-md-2">
+              <img src={ContactImg} alt="contact" className="contact-img"></img>
             </div>
-            <div className="element-holder">
-              <label class="contact__form-label" for="message">
-                Message
-              </label>
-              <textarea
-                required
-                cols="30"
-                rows="10"
-                class="text-aera"
-                placeholder="Enter Your Message"
-                name="message"
-                id="message"></textarea>
-            </div>
-            <button type="submit" class="css-button-rounded--sky">
-              Submit
-            </button>
-          </form>
+          </div>
         </div>
       </div>
     </>
