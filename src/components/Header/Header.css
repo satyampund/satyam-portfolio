@@ -90,3 +90,22 @@
   height: 100%;
   background: #00a6fb;
 }
+
+@media screen and (max-width: 786px) {
+  .heading {
+    margin-top: 0px;
+    display: none;
+  }
+  .css-button-arrow--sky {
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 331px) {
+  .css-button-arrow--sky {
+    min-width: 100px;
+  }
+  .css-button-sliding-to-left--sky {
+    min-width: 100px;
+  }
+}
