@@ -1,13 +1,40 @@
 .container-footer {
   background-color: #2c2c2c;
   color: #fff;
-  padding: 70px;
+  padding: 40px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .footer-col-1 {
-  max-width: 400px;
+  max-width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 1px;
 }
 
 .footer-my-name {
-  margin-bottom: 30px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.social-media {
+  width: 40px;
+  margin: 10px 20px 20px 20px;
+  cursor: pointer;
+}
+
+.social-media:hover {
+  transform: scale(1.1);
+}
+
+.git-hub {
+  border-radius: 10px;
+}
+
+.copyright {
+  font-size: 14px;
 }
