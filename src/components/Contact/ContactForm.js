@@ -1,10 +1,12 @@
 import React from 'react';
 import './ContactForm.css';
 
+const EMAIL_KEY = process.env.REACT_APP_EMAIL_KEY;
+
 const ContactForm = () => {
   return (
     <>
-      <form className="form-elements">
+      <form className="form-elements" action={EMAIL_KEY} method="POST">
         <div className="element-holder">
           <label class="contact__form-label" for="name">
             Name
@@ -14,7 +16,7 @@ const ContactForm = () => {
             placeholder="Enter Your Name"
             type="text"
             class="contact__form-input"
-            name="name"
+            name="Name"
             id="name"
           />
         </div>
@@ -27,7 +29,7 @@ const ContactForm = () => {
             placeholder="Enter Your Email"
             type="email"
             class="contact__form-input"
-            name="email"
+            name="Email"
             id="email"
           />
         </div>
@@ -41,7 +43,7 @@ const ContactForm = () => {
             rows="7"
             class="text-aera"
             placeholder="Enter Your Message"
-            name="message"
+            name="Message"
             id="message"></textarea>
         </div>
         <button type="submit" class="css-button-rounded--sky">
