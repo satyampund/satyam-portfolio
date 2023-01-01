@@ -5,7 +5,7 @@ import KnowMe from './KnowMe';
 
 const About = () => {
   return (
-    <div className="about-container">
+    <div className="about-container" id="about">
       <h2 className="about-heading">About Me</h2>
       <div className="container-div">
         <h4 className="about-des">

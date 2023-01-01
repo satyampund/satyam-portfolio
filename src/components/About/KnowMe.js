@@ -1,9 +1,11 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import './KnowMe.css';
 
 const KnowMe = () => {
   return (
-    <>
+    <BrowserRouter>
       <h6 className="knowMe-box-header">Education</h6>
       <div className="abc">
         <p className="mb-1">B.Tech in Production Engineering</p>
@@ -35,8 +37,11 @@ const KnowMe = () => {
           <span> contact</span> me.
         </p>
       </div>
-      <button className="css-button-rounded--sky">Contact</button>
-    </>
+
+      <Link to="#contact" smooth style={{ textDecoration: 'none' }}>
+        <button className="css-button-rounded--sky">Contact</button>
+      </Link>
+    </BrowserRouter>
   );
 };
 

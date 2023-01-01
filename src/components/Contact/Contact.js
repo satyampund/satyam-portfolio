@@ -6,7 +6,7 @@ import ContactImg from './../../assests/final.png';
 const Contact = () => {
   return (
     <>
-      <div className="container-fluid contact-me ">
+      <div className="container-fluid contact-me" id="contact">
         <h2 className="contact-heading">Contact</h2>
         <div className="contact-container-div">
           <h4 className="contact-des">

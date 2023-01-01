@@ -1,15 +1,17 @@
 import React from 'react';
 import './NavBar.css';
 import SatyamPhoto from './../../assests/satyam-photo.png';
+import { BrowserRouter } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const NavBar = () => {
   return (
-    <>
+    <BrowserRouter>
       <nav className="navbar sticky-top navbar-expand-lg bg-body-tertiary bg-light">
-        <a class="navbar-brand ms-4" href="#d">
+        <Link class="navbar-brand ms-4" to="#home" smooth>
           <img src={SatyamPhoto} className="my-photo" alt="satyam" />
           <span className="ms-3 brand-name">Satyam Pund</span>
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -24,29 +26,29 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul className="navbar-nav ms-lg-auto mx-5">
             <li className="nav-item">
-              <a className="nav-link" href="#dfdf">
+              <Link className="nav-link" to="#home" smooth>
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#dgd">
+              <Link className="nav-link" to="#about" smooth>
                 About
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#Pojrct">
+              <Link className="nav-link" to="#projects" smooth>
                 Projects
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#dgd">
+              <Link className="nav-link" to="#contact" smooth>
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
       </nav>
-    </>
+    </BrowserRouter>
   );
 };
 
