@@ -31,3 +31,9 @@
   line-height: 1.5;
   font-size: 20px;
 }
+
+@media screen and (max-width: 600px) {
+  .description-container {
+    margin-bottom: 30px;
+  }
+}
