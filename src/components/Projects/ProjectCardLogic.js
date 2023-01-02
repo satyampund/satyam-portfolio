@@ -1,13 +1,18 @@
 import React from 'react';
-import RoadToJS from './../../assests/project-1.png';
-import DryFruitsDarbar from './../../assests/project-2.png';
-import WeatherApp from './../../assests/project-3.png';
-import StackRTJ from './../../assests/project-stack-1.png';
+import RoadToJS from './../../assests/project-img/project-1.png';
+import DryFruitsDarbar from './../../assests/project-img/project-2.png';
+import WeatherApp from './../../assests/project-img/project-3.png';
+import Stack1 from './../../assests/project-stack-img/project-stack-1.png';
+// import Stack2 from './../../assests/project-stack-img/project-stack-2.png';
+import Stack3 from './../../assests/project-stack-img/project-stack-3.png';
+// import Stack4 from './../../assests/project-stack-img/project-stack-4.png';
+import Stack5 from './../../assests/project-stack-img/project-stack-5.png';
 
 const ProjectCardLogic = () => {
   const projectData = [
     {
       image: RoadToJS,
+      stack: Stack3,
       title: 'Road To JS',
       color: 'card-color-1',
       codeLink: 'https://github.com/satyampund/road-to-js-icp-3-group-d-',
@@ -18,6 +23,7 @@ const ProjectCardLogic = () => {
 
     {
       image: DryFruitsDarbar,
+      stack: Stack1,
       title: 'Dry Fruits Darbar',
       color: 'card-color-2',
       codeLink: 'https://github.com/satyampund/dry-fruits-darbar-icp-3-group-f',
@@ -27,6 +33,7 @@ const ProjectCardLogic = () => {
     },
     {
       image: WeatherApp,
+      stack: Stack5,
       title: 'Weather App',
       color: 'card-color-3',
       codeLink: 'https://github.com/satyampund/online-weather-app',
@@ -42,7 +49,7 @@ const ProjectCardLogic = () => {
         <div className="card">
           <div className="image-container">
             <img className="card-img" src={ele.image} alt="Roadtojs"></img>
-            <img className="card-back-img" src={StackRTJ} alt="Roadtojs"></img>
+            <img className="card-back-img" src={ele.stack} alt="Roadtojs"></img>
           </div>
           <div className={`card-body ${ele.color}`}>
             <h5 className="card-title">{ele.title}</h5>

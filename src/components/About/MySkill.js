@@ -1,22 +1,22 @@
 import React from 'react';
 import './MySkill.css';
-import './SkillBox';
-import HMTLImg from './../../assests/html.png';
-import CSSImg from './../../assests/css-3.png';
-import JavaScriptImg from './../../assests/js.png';
-import BootStrapImg from './../../assests/bootstrap.png';
-import ReactImg from './../../assests/react.png';
-import NodeJsImg from './../../assests/nodejs.png';
-import MongodbImg from './../../assests/mongodb.png';
-import ExpressImg from './../../assests/express.png';
-import CImg from './../../assests/c-programming.png';
-import CppImg from './../../assests/c++.png';
-import PythonImg from './../../assests/python.png';
-import JavaImg from './../../assests/java.png';
-import GitImg from './../../assests/git-icon.png';
-import GitHubImg from './../../assests/github.png';
-import PostmanImg from './../../assests/postman.png';
 import SkillBox from './SkillBox';
+import './SkillBox';
+import HMTLImg from './../../assests/skills-img/html.png';
+import CSSImg from './../../assests/skills-img/css-3.png';
+import JavaScriptImg from './../../assests/skills-img/js.png';
+import BootStrapImg from './../../assests/skills-img/bootstrap.png';
+import ReactImg from './../../assests/skills-img/react.png';
+import NodeJsImg from './../../assests/skills-img/nodejs.png';
+import MongodbImg from './../../assests/skills-img/mongodb.png';
+import ExpressImg from './../../assests/skills-img/express.png';
+import CImg from './../../assests/skills-img/c-programming.png';
+import CppImg from './../../assests/skills-img/c++.png';
+import PythonImg from './../../assests/skills-img/python.png';
+import JavaImg from './../../assests/skills-img/java.png';
+import GitImg from './../../assests/skills-img/git-icon.png';
+import GitHubImg from './../../assests/skills-img/github.png';
+import PostmanImg from './../../assests/skills-img/postman.png';
 
 const MySkill = () => {
   return (
