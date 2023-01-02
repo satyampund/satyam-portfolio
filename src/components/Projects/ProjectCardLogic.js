@@ -1,9 +1,10 @@
 import React from 'react';
 import RoadToJS from './../../assests/project-img/project-1.png';
-import DryFruitsDarbar from './../../assests/project-img/project-2.png';
+import EmojiKit from './../../assests/project-img/project-2.png';
 import WeatherApp from './../../assests/project-img/project-3.png';
+import DryFruitsDarbar from './../../assests/project-img/project-6.png';
 import Stack1 from './../../assests/project-stack-img/project-stack-1.png';
-// import Stack2 from './../../assests/project-stack-img/project-stack-2.png';
+import Stack2 from './../../assests/project-stack-img/project-stack-2.png';
 import Stack3 from './../../assests/project-stack-img/project-stack-3.png';
 // import Stack4 from './../../assests/project-stack-img/project-stack-4.png';
 import Stack5 from './../../assests/project-stack-img/project-stack-5.png';
@@ -20,16 +21,15 @@ const ProjectCardLogic = () => {
       description:
         'Road To JS is a platform that contains the collection of JavaScript begineers friendly projects in one place',
     },
-
     {
-      image: DryFruitsDarbar,
-      stack: Stack1,
-      title: 'Dry Fruits Darbar',
+      image: EmojiKit,
+      stack: Stack5,
+      title: 'Emoji Kit',
       color: 'card-color-2',
-      codeLink: 'https://github.com/satyampund/dry-fruits-darbar-icp-3-group-f',
-      demoLink: 'https://dry-fruits-darbar.netlify.app/',
+      codeLink: '',
+      demoLink: '',
       description:
-        'Dry Fruits Darbar is an E-commerce platform where you can buy premium quality dry fruits',
+        'Simple emoji toolkit to change background color, size and rotation of emoji with the help of useState.',
     },
     {
       image: WeatherApp,
@@ -40,6 +40,66 @@ const ProjectCardLogic = () => {
       demoLink: 'https://online-weather-app-icp.netlify.app/',
       description:
         'This is simple React Project which gives you weather updates by just entering city name',
+    },
+    {
+      image: DryFruitsDarbar,
+      stack: Stack1,
+      title: 'Dry Fruits Darbar',
+      color: 'card-color-4',
+      codeLink: 'https://github.com/satyampund/dry-fruits-darbar-icp-3-group-f',
+      demoLink: 'https://dry-fruits-darbar.netlify.app/',
+      description:
+        'Dry Fruits Darbar is an E-commerce platform where you can buy premium quality dry fruits',
+    },
+    {
+      image: DryFruitsDarbar,
+      stack: Stack2,
+      title: 'Pig Game',
+      color: 'card-color-5',
+      codeLink: 'https://github.com/satyampund/pig-game',
+      demoLink: 'https://pig-game-icp.netlify.app/',
+      description:
+        'Pig game is a simple dice game. You win by being the first player to score 100 or more points.',
+    },
+    {
+      image: DryFruitsDarbar,
+      stack: Stack2,
+      title: 'Guess My Number',
+      color: 'card-color-1',
+      codeLink: 'https://github.com/satyampund/guess-my-number-game',
+      demoLink: 'https://guess-my-number-game-icp.netlify.app/',
+      description:
+        'Guess the secret number present in the box. If your guess is too high or too low, you will get a hint.',
+    },
+    {
+      image: DryFruitsDarbar,
+      stack: Stack2,
+      title: 'Drum Kit',
+      color: 'card-color-3',
+      codeLink: 'https://github.com/satyampund/drum-kit',
+      demoLink: 'https://drum-kit-icp.netlify.app/',
+      description:
+        'A web-based Drum music game for playing the drum. This can give you an experience of drum playing.',
+    },
+    {
+      image: DryFruitsDarbar,
+      stack: Stack2,
+      title: 'Calculator',
+      color: 'card-color-2',
+      codeLink: 'https://github.com/satyampund/drum-kit',
+      demoLink: 'https://drum-kit-icp.netlify.app/',
+      description:
+        'A web-based Drum music game for playing the drum. This can give you an experience of drum playing.',
+    },
+    {
+      image: DryFruitsDarbar,
+      stack: Stack2,
+      title: 'Expense Tracker',
+      color: 'card-color-4',
+      codeLink: 'https://github.com/satyampund/drum-kit',
+      demoLink: 'https://drum-kit-icp.netlify.app/',
+      description:
+        'A web-based Drum music game for playing the drum. This can give you an experience of drum playing.',
     },
   ];
 
