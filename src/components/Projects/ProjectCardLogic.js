@@ -30,7 +30,7 @@ const ProjectCardLogic = () => {
       image: EmojiKit,
       stack: Stack5,
       title: 'Emoji Kit',
-      color: 'card-color-2',
+      color: 'card-color-1',
       codeLink: 'https://github.com/satyampund/emoji-kit',
       demoLink: 'https://emoji-kit-icp.netlify.app/',
       description:
@@ -40,7 +40,7 @@ const ProjectCardLogic = () => {
       image: WeatherApp,
       stack: Stack5,
       title: 'Weather App',
-      color: 'card-color-3',
+      color: 'card-color-1',
       codeLink: 'https://github.com/satyampund/online-weather-app',
       demoLink: 'https://online-weather-app-icp.netlify.app/',
       description:
@@ -50,7 +50,7 @@ const ProjectCardLogic = () => {
       image: DryFruitsDarbar,
       stack: Stack1,
       title: 'Dry Fruits Darbar',
-      color: 'card-color-4',
+      color: 'card-color-1',
       codeLink: 'https://github.com/satyampund/dry-fruits-darbar-icp-3-group-f',
       demoLink: 'https://dry-fruits-darbar.netlify.app/',
       description:
@@ -60,7 +60,7 @@ const ProjectCardLogic = () => {
       image: PigGame,
       stack: Stack2,
       title: 'Pig Game',
-      color: 'card-color-5',
+      color: 'card-color-1',
       codeLink: 'https://github.com/satyampund/pig-game',
       demoLink: 'https://pig-game-icp.netlify.app/',
       description:
@@ -80,7 +80,7 @@ const ProjectCardLogic = () => {
       image: DrumKit,
       stack: Stack2,
       title: 'Drum Kit',
-      color: 'card-color-3',
+      color: 'card-color-1',
       codeLink: 'https://github.com/satyampund/drum-kit',
       demoLink: 'https://drum-kit-icp.netlify.app/',
       description:
@@ -90,7 +90,7 @@ const ProjectCardLogic = () => {
       image: Calculator,
       stack: Stack2,
       title: 'Calculator',
-      color: 'card-color-2',
+      color: 'card-color-1',
       codeLink: 'https://github.com/satyampund/Calculator',
       demoLink: 'https://calculator-icp.netlify.app/',
       description:
@@ -100,7 +100,7 @@ const ProjectCardLogic = () => {
       image: ExpenseTracker,
       stack: Stack4,
       title: 'Expense Tracker',
-      color: 'card-color-4',
+      color: 'card-color-1',
       codeLink: 'https://github.com/satyampund/expense-tracker',
       demoLink: '',
       description:
