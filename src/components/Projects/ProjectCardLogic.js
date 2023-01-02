@@ -2,11 +2,16 @@ import React from 'react';
 import RoadToJS from './../../assests/project-img/project-1.png';
 import EmojiKit from './../../assests/project-img/project-2.png';
 import WeatherApp from './../../assests/project-img/project-3.png';
-import DryFruitsDarbar from './../../assests/project-img/project-6.png';
+import DryFruitsDarbar from './../../assests/project-img/project-4.png';
+import PigGame from './../../assests/project-img/project-5.png';
+import GuessMyNumber from './../../assests/project-img/project-6.png';
+import DrumKit from './../../assests/project-img/project-7.png';
+import Calculator from './../../assests/project-img/project-8.png';
+import ExpenseTracker from './../../assests/project-img/project-9.png';
 import Stack1 from './../../assests/project-stack-img/project-stack-1.png';
 import Stack2 from './../../assests/project-stack-img/project-stack-2.png';
 import Stack3 from './../../assests/project-stack-img/project-stack-3.png';
-// import Stack4 from './../../assests/project-stack-img/project-stack-4.png';
+import Stack4 from './../../assests/project-stack-img/project-stack-4.png';
 import Stack5 from './../../assests/project-stack-img/project-stack-5.png';
 
 const ProjectCardLogic = () => {
@@ -26,8 +31,8 @@ const ProjectCardLogic = () => {
       stack: Stack5,
       title: 'Emoji Kit',
       color: 'card-color-2',
-      codeLink: '',
-      demoLink: '',
+      codeLink: 'https://github.com/satyampund/emoji-kit',
+      demoLink: 'https://emoji-kit-icp.netlify.app/',
       description:
         'Simple emoji toolkit to change background color, size and rotation of emoji with the help of useState.',
     },
@@ -52,7 +57,7 @@ const ProjectCardLogic = () => {
         'Dry Fruits Darbar is an E-commerce platform where you can buy premium quality dry fruits',
     },
     {
-      image: DryFruitsDarbar,
+      image: PigGame,
       stack: Stack2,
       title: 'Pig Game',
       color: 'card-color-5',
@@ -62,7 +67,7 @@ const ProjectCardLogic = () => {
         'Pig game is a simple dice game. You win by being the first player to score 100 or more points.',
     },
     {
-      image: DryFruitsDarbar,
+      image: GuessMyNumber,
       stack: Stack2,
       title: 'Guess My Number',
       color: 'card-color-1',
@@ -72,7 +77,7 @@ const ProjectCardLogic = () => {
         'Guess the secret number present in the box. If your guess is too high or too low, you will get a hint.',
     },
     {
-      image: DryFruitsDarbar,
+      image: DrumKit,
       stack: Stack2,
       title: 'Drum Kit',
       color: 'card-color-3',
@@ -82,22 +87,22 @@ const ProjectCardLogic = () => {
         'A web-based Drum music game for playing the drum. This can give you an experience of drum playing.',
     },
     {
-      image: DryFruitsDarbar,
+      image: Calculator,
       stack: Stack2,
       title: 'Calculator',
       color: 'card-color-2',
-      codeLink: 'https://github.com/satyampund/drum-kit',
-      demoLink: 'https://drum-kit-icp.netlify.app/',
+      codeLink: 'https://github.com/satyampund/Calculator',
+      demoLink: 'https://calculator-icp.netlify.app/',
       description:
         'A web-based Drum music game for playing the drum. This can give you an experience of drum playing.',
     },
     {
-      image: DryFruitsDarbar,
-      stack: Stack2,
+      image: ExpenseTracker,
+      stack: Stack4,
       title: 'Expense Tracker',
       color: 'card-color-4',
-      codeLink: 'https://github.com/satyampund/drum-kit',
-      demoLink: 'https://drum-kit-icp.netlify.app/',
+      codeLink: 'https://github.com/satyampund/expense-tracker',
+      demoLink: '',
       description:
         'A web-based Drum music game for playing the drum. This can give you an experience of drum playing.',
     },
