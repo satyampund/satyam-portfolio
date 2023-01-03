@@ -10,7 +10,7 @@ const Projects = () => {
         <div className="description-container">
           <h4 className="description">
             Here you will find some of my personal projects that I created with each project
-            containing its own case study
+            containing its project stack
           </h4>
         </div>
         <ProjectCard />
