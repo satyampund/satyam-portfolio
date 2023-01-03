@@ -94,7 +94,7 @@ const ProjectCardLogic = () => {
       codeLink: 'https://github.com/satyampund/Calculator',
       demoLink: 'https://calculator-icp.netlify.app/',
       description:
-        'A web-based Drum music game for playing the drum. This can give you an experience of drum playing.',
+        'Simple Calculator which can do addition, subtraction, multiplication and division.',
     },
     {
       image: ExpenseTracker,
