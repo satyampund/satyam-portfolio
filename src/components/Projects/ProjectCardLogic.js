@@ -104,7 +104,7 @@ const ProjectCardLogic = () => {
       codeLink: 'https://github.com/satyampund/expense-tracker',
       demoLink: 'https://expense-tracker-icp.netlify.app/',
       description:
-        'A web-based Drum music game for playing the drum. This can give you an experience of drum playing.',
+        'Expense tracker helps us to analyse our expenses by storing them in a systematic tabular form',
     },
   ];
 
