@@ -14,9 +14,15 @@ const Footer = () => {
             Cricket is my first love followed by coding! Love cricket as much as I do? Let's talk
             about how awesome it is! We can code while we watch cricket!
           </p>
-          <img src={Linkedin} className="social-media" alt="linkedin"></img>
-          <img src={GitHubL} className="social-media git-hub" alt="githublogo"></img>
-          <img src={Instagram} className="social-media" alt="Instgram"></img>
+          <a href="https://www.linkedin.com/in/satyam-pund/">
+            <img src={Linkedin} className="social-media" alt="linkedin"></img>
+          </a>
+          <a href="https://github.com/satyampund">
+            <img src={GitHubL} className="social-media git-hub" alt="githublogo"></img>
+          </a>
+          <a href="https://www.instagram.com/satyam_2602/">
+            <img src={Instagram} className="social-media" alt="Instgram"></img>
+          </a>
         </div>
         <hr></hr>
         <p className="copyright">Copyright © Satyam Pund 2023.</p>
