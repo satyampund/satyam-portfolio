@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
 import StudyBoy from './../../assests/header.png';
+// import Resume from './../../assests/satyam-pund-resume.pdf';
 import './Header.css';
 const Header = () => {
   return (
@@ -14,7 +15,11 @@ const Header = () => {
               A MERN Stack Developer Passionate About Coding. Always ready to try Hands-on New and
               Emerging Technologies.
             </h4>
-            <button className="css-button-arrow--sky me-5 mt-4">Resume</button>
+            <a
+              href={require('./../../assests/satyam-pund-resume.pdf')}
+              download="Satyam Pund Resume">
+              <button className="css-button-arrow--sky me-5 mt-4">Resume</button>
+            </a>
             <Link to="#contact" smooth style={{ textDecoration: 'none' }}>
               <button className="css-button-sliding-to-left--sky mt-4">Hire Me</button>
             </Link>
