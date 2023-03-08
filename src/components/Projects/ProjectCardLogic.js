@@ -8,14 +8,26 @@ import GuessMyNumber from './../../assests/project-img/project-6.png';
 import DrumKit from './../../assests/project-img/project-7.png';
 import Calculator from './../../assests/project-img/project-8.png';
 import ExpenseTracker from './../../assests/project-img/project-9.png';
+import SuperMeal from './../../assests/project-img/project-10.png';
 import Stack1 from './../../assests/project-stack-img/project-stack-1.png';
 import Stack2 from './../../assests/project-stack-img/project-stack-2.png';
 import Stack3 from './../../assests/project-stack-img/project-stack-3.png';
 import Stack4 from './../../assests/project-stack-img/project-stack-4.png';
 import Stack5 from './../../assests/project-stack-img/project-stack-5.png';
+import Stack6 from './../../assests/project-stack-img/project-stack-6.png';
 
 const ProjectCardLogic = () => {
   const projectData = [
+    {
+      image: SuperMeal,
+      stack: Stack6,
+      title: 'Super Meal',
+      color: 'card-color-1',
+      codeLink: 'https://github.com/satyampund/super-meal',
+      demoLink: 'https://super-meal.onrender.com',
+      description:
+        'Super Meal is a full stack restaurant website. Key points- RESTful APIs and interactive user interface.',
+    },
     {
       image: RoadToJS,
       stack: Stack3,
@@ -86,16 +98,16 @@ const ProjectCardLogic = () => {
       description:
         'A web-based Drum music game for playing the drum. This can give you an experience of drum playing.',
     },
-    {
-      image: Calculator,
-      stack: Stack2,
-      title: 'Calculator',
-      color: 'card-color-1',
-      codeLink: 'https://github.com/satyampund/Calculator',
-      demoLink: 'https://calculator-icp.netlify.app/',
-      description:
-        'Simple Calculator which can do addition, subtraction, multiplication and division.',
-    },
+    // {
+    //   image: Calculator,
+    //   stack: Stack2,
+    //   title: 'Calculator',
+    //   color: 'card-color-1',
+    //   codeLink: 'https://github.com/satyampund/Calculator',
+    //   demoLink: 'https://calculator-icp.netlify.app/',
+    //   description:
+    //     'Simple Calculator which can do addition, subtraction, multiplication and division.',
+    // },
     {
       image: ExpenseTracker,
       stack: Stack4,
