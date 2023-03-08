@@ -6,7 +6,7 @@ import DryFruitsDarbar from './../../assests/project-img/project-4.png';
 import PigGame from './../../assests/project-img/project-5.png';
 import GuessMyNumber from './../../assests/project-img/project-6.png';
 import DrumKit from './../../assests/project-img/project-7.png';
-import Calculator from './../../assests/project-img/project-8.png';
+// import Calculator from './../../assests/project-img/project-8.png';
 import ExpenseTracker from './../../assests/project-img/project-9.png';
 import SuperMeal from './../../assests/project-img/project-10.png';
 import Stack1 from './../../assests/project-stack-img/project-stack-1.png';
